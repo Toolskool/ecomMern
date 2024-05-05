@@ -78,4 +78,4 @@ This project is built with the following:
 
 ## Database Schema
 
-(/uploads/schema.jpg)
+[schema](/uploads/schema.jpg)
