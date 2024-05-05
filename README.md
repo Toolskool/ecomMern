@@ -6,23 +6,23 @@ EcomMern is an online store management system that was created to allow store ow
 
 ## Store Owner Features
 
-*Ability to register, log in, and log out as a store owner
-*Access to an admin dashboard
-*Can view a list of all items in stock with details
-*Add a new item to the inventory with necessary details
-*Edit existing items
-*Remove items from the inventory
+- Ability to register, log in, and log out as a store owner
+- Access to an admin dashboard
+- Can view a list of all items in stock with details
+- Add a new item to the inventory with necessary details
+- Edit existing items
+- Remove items from the inventory
 
 ## Customer Features
 
-*Ability to register, log in, and log out as a customer
-*Access to an customer dashboard
-*Browse the list of items available for purchase with details
-*Add items to a shopping cart
-*View their shopping cart with the selected items
-*Remove items from the shopping cart
-*Complete the purchase by providing shipping and payment details
-*View their order history
+- Ability to register, log in, and log out as a customer
+- Access to an customer dashboard
+- Browse the list of items available for purchase with details
+- Add items to a shopping cart
+- View their shopping cart with the selected items
+- Remove items from the shopping cart
+- Complete the purchase by providing shipping and payment details
+- View their order history
 
 ## Installation Instructions
 
