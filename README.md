@@ -72,10 +72,10 @@ This project is built with the following:
 
 ## User Manuals
 
-[Owner User Manual](/uploads/Customer_Manual.pdf)
+[Owner User Manual](/manuals/Customer_Manual.pdf)
 
-[Customer User Manual](/uploads/Owner_Manual.pdf)
+[Customer User Manual](/manuals/Owner_Manual.pdf)
 
 ## Database Schema
 
-![schema](/uploads/schema.jpg)
+![schema](/manuals/schema.jpg)
