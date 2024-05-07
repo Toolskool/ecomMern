@@ -70,6 +70,10 @@ This project is built with the following:
 - React.js
 - Tailwind CSS
 
+You will also need a paypal client id from [here](https://developer.paypal.com/)
+
+![paypal_id](/manuals/paypal_id.png)
+
 ## User Manuals
 
 [Owner User Manual](/manuals/Customer_Manual.pdf)
