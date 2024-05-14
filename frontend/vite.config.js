@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api/": "https://ecommern-wyll.onrender.com", //"http://localhost:5000"
-      "/uploads/": "https://ecommern-wyll.onrender.com", //"http://localhost:5000"
+      "/api/": "http://localhost:5000",
+      "/uploads/": "http://localhost:5000",
     },
   },
 });
