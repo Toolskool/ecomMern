@@ -3,6 +3,7 @@ import path from "path";
 import express from "express";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
+import { fileURLToPath } from "url";
 
 //utils
 import connectDB from "./config/db.js";
@@ -33,7 +34,16 @@ app.get("/api/config/paypal", (req, res) => {
   res.send({ clientId: process.env.PAYPAL_CLIENT_ID });
 });
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirnametwo = path.dirname(__filename);
+
+app.use(express.static(path.join(__dirnametwo, "../frontend/dist")));
+
+app.get("*", (req, res) =>
+  res.sendFile(path.join(__dirnametwo, "../frontend/dist/index.html"))
+);
+
 const __dirname = path.resolve();
-app.use("/uploads", express.static(path.join(__dirname + "/uploads")));
+app.use("/frontend/public/uploads", express.static(path.join(__dirname + "/frontend/public/uploads")));
 
 app.listen(port, () => console.log(`Server running on port: ${port}`));
